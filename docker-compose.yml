@@ -12,6 +12,8 @@ services:
       MEMORY: "4G"
       DIFFICULTY: "hard"
       OPS: "Ezequiel294"
+      VIEW_DISTANCE: "16"
+      MAX_PLAYERS: "10"
       ENABLE_WHITELIST: "true"
       FORCE_WHITELIST: "true"
       WHITELIST: |
