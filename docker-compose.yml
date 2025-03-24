@@ -11,9 +11,8 @@ services:
       TYPE: FORGE
       VERSION: "1.16.5"
       FORGE_VERSION: "36.2.34"
-      MODRINTH_PROJECTS:
+      MODRINTH_PROJECTS: |
         https://modrinth.com/mod/xaeros-minimap/version/25.2.0_Forge_1.16.5
         https://modrinth.com/mod/appleskin/version/2.5.1+mc1.16.4
     volumes:
-      # attach the relative directory 'data' to the container's /data path
       - ./data:/data
