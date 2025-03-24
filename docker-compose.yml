@@ -15,4 +15,4 @@ services:
         https://modrinth.com/mod/appleskin/version/2.5.1+mc1.16.4
     volumes:
       # attach the relative directory 'data' to the container's /data path
-      ./data:/data
+      - ./data:/data
