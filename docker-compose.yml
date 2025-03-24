@@ -16,7 +16,6 @@ services:
       FORCE_WHITELIST: "true"
       WHITELIST: |
         Ezequiel294
-        # add additional usernames on new lines if needed
       
       TYPE: FORGE
       FORGE_VERSION: "36.2.34"
