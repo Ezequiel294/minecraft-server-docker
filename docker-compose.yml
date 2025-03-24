@@ -8,11 +8,14 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      TYPE: FORGE
       VERSION: "1.16.5"
+      MEMORY: "4G"
+      TYPE: FORGE
       FORGE_VERSION: "36.2.34"
+      DEBUG: "true"
       MODRINTH_PROJECTS: |
         xaeros-minimap
         appleskin
+      JVM_OPTS: "--add-opens java.base/sun.security.util=ALL-UNNAMED"
     volumes:
       - ./data:/data
