@@ -10,7 +10,14 @@ services:
       EULA: "TRUE"
       VERSION: "1.16.5"
       MEMORY: "4G"
-
+      DIFFICULTY: "hard"
+      OPS: "Ezequiel294"
+      ENABLE_WHITELIST: "true"
+      FORCE_WHITELIST: "true"
+      WHITELIST: |
+        Ezequiel294
+        # add additional usernames on new lines if needed
+      
       TYPE: FORGE
       FORGE_VERSION: "36.2.34"
       DEBUG: "true"
@@ -19,6 +26,8 @@ services:
         xaeros-minimap
         appleskin
 
-      JVM_OPTS: "--add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/java.util.jar=ALL-UNNAMED"
+      JVM_OPTS: |
+        --add-opens java.base/sun.security.util=ALL-UNNAMED
+        --add-opens java.base/java.util.jar=ALL-UNNAMED
     volumes:
       - ./data:/data
