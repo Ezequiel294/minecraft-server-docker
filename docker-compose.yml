@@ -12,10 +12,11 @@ services:
       MEMORY: "4G"
       DIFFICULTY: "hard"
       OPS: "Ezequiel294"
-      VIEW_DISTANCE: "16"
+      VIEW_DISTANCE: "12"
       MAX_PLAYERS: "10"
       ENABLE_WHITELIST: "true"
       FORCE_WHITELIST: "true"
+      # Add player names to let them join
       WHITELIST: |
         Ezequiel294
       
