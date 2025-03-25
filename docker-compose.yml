@@ -8,7 +8,7 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      VERSION: "1.16.5"
+      VERSION: "1.20.6"
       MEMORY: "4G"
       DIFFICULTY: "hard"
       OPS: "Ezequiel294"
@@ -16,20 +16,19 @@ services:
       MAX_PLAYERS: "10"
       ENABLE_WHITELIST: "true"
       FORCE_WHITELIST: "true"
-      # Add player names to let them join
       WHITELIST: |
         Ezequiel294
       
       TYPE: FORGE
-      FORGE_VERSION: "36.2.34"
+      FORGE_VERSION: "50.2.0"
       DEBUG: "true"
       MODRINTH_DOWNLOAD_DEPENDENCIES: "required"
+      MODRINTH_ALLOWED_VERSION_TYPE: "beta"
       MODRINTH_PROJECTS: |
-        xaeros-minimap
-        appleskin
+        geophilic
+        jei
+        terralith
+        fallingtree
 
-      JVM_OPTS: |
-        --add-opens java.base/sun.security.util=ALL-UNNAMED
-        --add-opens java.base/java.util.jar=ALL-UNNAMED
     volumes:
       - ./data:/data
