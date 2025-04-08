@@ -8,7 +8,7 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      VERSION: "1.21.2"
+      VERSION: "1.21.1"
       MEMORY: "8G"
       DIFFICULTY: "hard"
       OPS: "Ezequiel294"
@@ -33,6 +33,15 @@ services:
         chunky
         alternate-current
         scalablelux
+        jade
+        netherportalfix
+        fallingtree
+        ct-overhaul-village
+        double-doors
+        spawn-animations
+        ping-wheel
+        additional-structures
+        edf-remastered
 
     volumes:
       - ./data:/data
