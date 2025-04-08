@@ -29,7 +29,6 @@ services:
         fabric-api
         lithium
         krypton
-        c2me-fabric
         noisium
         chunky
         alternate-current
