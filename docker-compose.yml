@@ -38,7 +38,6 @@ services:
         fallingtree
         ct-overhaul-village
         double-doors
-        spawn-animations
         ping-wheel
         additional-structures
         edf-remastered
