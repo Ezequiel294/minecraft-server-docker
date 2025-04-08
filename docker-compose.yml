@@ -35,3 +35,6 @@ services:
 
     volumes:
       - fabric:/data
+
+  volumes:
+    fabric: {}
