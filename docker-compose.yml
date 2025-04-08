@@ -39,6 +39,36 @@ services:
         ping-wheel
         additional-structures
         edf-remastered
+        ferrite-core
+        modernfix
+        appleskin
+        yungs-api
+        jei
+        distanthorizons
+        travelersbackpack
+        emi
+        yungs-better-nether-fortresses
+        yungs-better-dungeons
+        yungs-better-mineshafts
+        yungs-better-ocean-monuments
+        yungs-better-strongholds
+        yungs-better-jungle-temples
+        yungs-better-witch-huts
+        yungs-better-end-island
+        polymorph
+        yungs-better-desert-temples
+        yungs-extras
+        creeper-overhaul
+        nyfs-spiders
+        emi-loot
+        smarter-farmers-farmers-replant
+        farmers-delight-refabricated
+        what-are-they-up-to
+        hardcore-revival
+        monsters-in-the-closet
+        adventurez
+        jade-addons-fabric
+        better-compatibility-checker
 
     volumes:
       - ./data:/data
