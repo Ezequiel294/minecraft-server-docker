@@ -25,6 +25,7 @@ services:
       MODRINTH_ALLOWED_VERSION_TYPE: "beta"
       MODRINTH_PROJECTS: |
         fabric-api
+        balm
         lithium
         krypton
         noisium
