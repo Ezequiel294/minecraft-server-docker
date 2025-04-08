@@ -8,27 +8,30 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      VERSION: "1.20.6"
-      MEMORY: "4G"
+      VERSION: "1.21.2"
+      MEMORY: "8G"
       DIFFICULTY: "hard"
       OPS: "Ezequiel294"
-      VIEW_DISTANCE: "12"
+      VIEW_DISTANCE: "8"
       MAX_PLAYERS: "10"
       ENABLE_WHITELIST: "true"
       FORCE_WHITELIST: "true"
       WHITELIST: |
         Ezequiel294
-      
-      TYPE: FORGE
-      FORGE_VERSION: "50.2.0"
+
+      TYPE: FABRIC
       DEBUG: "true"
       MODRINTH_DOWNLOAD_DEPENDENCIES: "required"
       MODRINTH_ALLOWED_VERSION_TYPE: "beta"
       MODRINTH_PROJECTS: |
-        geophilic
-        jei
-        terralith
-        fallingtree
+        fabric-api
+        lithium
+        krypton
+        c2me-fabric
+        noisium
+        chunky
+        alternate-current
+        scalablelux
 
     volumes:
-      - ./data:/data
+      - fabric:/data
