@@ -18,6 +18,7 @@ services:
       FORCE_WHITELIST: "true"
       WHITELIST: |
         Ezequiel294
+        Rocha6740
 
       TYPE: FABRIC
       FABRIC_LOADER_VERSION: "0.16.12"
