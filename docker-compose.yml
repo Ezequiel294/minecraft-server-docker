@@ -72,7 +72,6 @@ services:
         better-compatibility-checker
         plantsjunk
         jaizmod
-        etherology
 
     volumes:
       - ./data:/data
