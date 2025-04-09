@@ -21,7 +21,7 @@ services:
 
       TYPE: FABRIC
       FABRIC_LOADER_VERSION: "0.16.12"
-      DEBUG: "true"
+      DEBUG: "false"
       MODRINTH_DOWNLOAD_DEPENDENCIES: "required"
       MODRINTH_ALLOWED_VERSION_TYPE: "beta"
       MODRINTH_PROJECTS: |
@@ -72,6 +72,8 @@ services:
         better-compatibility-checker
         plantsjunk
         jaizmod
+        mutant-monsters
+        zombie-awareness
 
     volumes:
       - ./data:/data
