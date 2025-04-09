@@ -46,7 +46,6 @@ services:
         appleskin
         yungs-api
         jei
-        distanthorizons
         travelersbackpack
         emi
         yungs-better-nether-fortresses
