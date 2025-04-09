@@ -70,6 +70,10 @@ services:
         adventurez
         jade-addons-fabric
         better-compatibility-checker
+        plantsjunk
+        jaizmod
+        etherology
 
     volumes:
       - ./data:/data
+
